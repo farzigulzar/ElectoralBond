@@ -10,7 +10,7 @@ import streamlit as st
 
 st. set_page_config(layout="wide")
 
-filepath = Path('Cleaned_merged_data\\electoral.csv')
+filepath = Path('https://github.com/farzigulzar/ElectoralBond/blob/main/Cleaned_merged_data/electoral.csv')
 df = pd.read_csv(filepath)
 
 # def plot_pie_chart(denom_):
